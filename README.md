@@ -7,6 +7,7 @@
 | تمرین | توضیح |
 |---|---|
 | [blackjack](./blackjack) | بازی بلک‌جک متنی (Console) در برابر کامپیوتر |
+| [guess-the-number](./guess-the-number) | بازی حدس عدد تصادفی با دو سطح دشواری |
 
 ## ساختار
 
@@ -16,6 +17,10 @@
 python-practice/
 ├── blackjack/
 │   ├── blackjack.py
+│   └── README.md
+├── guess-the-number/
+│   ├── guess.py
+│   ├── art.py
 │   └── README.md
 └── ...
 ```
