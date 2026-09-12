@@ -4,16 +4,17 @@
 
 ## تمرین‌ها
 
-| تمرین | توضیح |
-|---|---|
-| [blackjack](./blackjack) | بازی بلک‌جک متنی (Console) در برابر کامپیوتر |
-| [guess-the-number](./guess-the-number) | بازی حدس عدد تصادفی با دو سطح دشواری |
+| تمرین                                  | توضیح                                                              |
+| -------------------------------------- | ------------------------------------------------------------------ |
+| [blackjack](./blackjack)               | بازی بلک‌جک متنی (Console) در برابر کامپیوتر                       |
+| [guess-the-number](./guess-the-number) | بازی حدس عدد تصادفی با دو سطح دشواری                               |
+| [higher-lower](./higher-lower)         | بازی حدس زدن اینکه کدام اکانت اینستاگرام دنبال‌کننده‌ی بیشتری دارد |
 
 ## ساختار
 
 هر تمرین در پوشه‌ی جدای خودش قرار دارد:
 
-```
+```text
 python-practice/
 ├── blackjack/
 │   ├── blackjack.py
@@ -21,6 +22,10 @@ python-practice/
 ├── guess-the-number/
 │   ├── guess.py
 │   ├── art.py
+│   └── README.md
+├── higher-lower/
+│   ├── main.py
+│   ├── instagram_top_accounts.py
 │   └── README.md
 └── ...
 ```
